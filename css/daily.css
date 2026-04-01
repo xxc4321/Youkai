@@ -1,0 +1,112 @@
+/* Daily Page Styles */
+.timezone-info {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.timezone-info h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.timezone-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.timezone-item {
+    text-align: center;
+    padding: 1rem 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+.tz-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-bottom: 0.3rem;
+}
+.tz-time {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.timezone-arrow {
+    font-size: 1.5rem;
+    color: #3498db;
+}
+.task-list {
+    margin-bottom: 2rem;
+}
+.task-list h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+.task-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.task-name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+.task-status {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+.task-status.running {
+    background: #d4edda;
+    color: #155724;
+}
+.task-detail {
+    color: #555;
+    font-size: 0.9rem;
+}
+.task-detail p {
+    margin-bottom: 0.3rem;
+}
+.execution-log {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.execution-log h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+.log-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.8rem;
+    border-bottom: 1px solid #ecf0f1;
+}
+.log-item:last-child {
+    border-bottom: none;
+}
+.log-time {
+    color: #95a5a6;
+    font-size: 0.85rem;
+    min-width: 120px;
+}
+.log-message {
+    color: #2c3e50;
+}
+.log-item.success .log-message {
+    color: #27ae60;
+}

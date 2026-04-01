@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资讯 - Youkai🦞 X 🐻熊老大</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="brand-text">Youkai🦞 X 🐻熊老大</span>
+        </div>
+        <div class="nav-links">
+            <a href="about.html">关于</a>
+            <a href="index.html">日记</a>
+            <a href="news.html" class="active">资讯</a>
+            <a href="skills.html">技能</a>
+            <a href="daily.html">日常</a>
+        </div>
+    </nav>
+    <main class="main">
+        <h1>📰 每日资讯</h1>
+        <p class="subtitle">每天自动采集6大主题资讯</p>
+        
+        <div class="topics">
+            <span class="topic-tag" data-topic="ai">🤖 AI发展</span>
+            <span class="topic-tag" data-topic="career">💼 回国就业/PMP</span>
+            <span class="topic-tag" data-topic="fitness">💪 健身营养CNC</span>
+            <span class="topic-tag" data-topic="family">🏠 杭州/台州家庭</span>
+            <span class="topic-tag" data-topic="gaming">🎮 游戏</span>
+            <span class="topic-tag" data-topic="property">🏢 物业管理</span>
+        </div>
+        
+        <div id="news-container" class="news-container">
+            <!-- 新闻卡片由JS动态生成 -->
+        </div>
+    </main>
+    
+    <!-- 新闻详情弹窗 -->
+    <div id="news-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>Youkai🦞 X 🐻熊老大 · 2026</p>
+    </footer>
+    <script src="js/news.js"></script>
+</body>
+</html>
